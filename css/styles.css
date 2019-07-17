@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  text-align: center;
+   color: #40514E;
+  background-color: #dff0ea
+
+}
+
+
+h1 {
+  margin: 50;
+  font-family: 'Dancing Script', cursive;
+  /* Sizes of Font 16 = 1em or 100% */
+  font-size: 6rem;
+  color: #096386;
+  margin-bottom: 20px;
+}
+h2{
+  color: #66bfbf;
+  font-size: 2rem;
+
+}
+
+
+h3 {
+  color: #11999E;
+}
+
+div {
+  background-color: #dff0ea;
+  margin-top:  0;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  color: #096386;
+}
+
+.Sub-heading {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top:  0;
+  letter-spacing: 3px;
+
+
+}
+
+.skill-row {
+  /* //make the text only half hte size of screen */
+  width: 40%;
+  margin: 20px auto 100px auto ;
+  text-align: left;
+  line-height: 2;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 550px;
+  bottom: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  bottom: 580px;
+}
+
+hr {
+  border: dotted #5588a3 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 40px auto;
+}
+
+.profileTitle {
+  text-align:  center;
+}
+.profile-img {
+  margin-top: 20px;
+  width: 10%;
+  align-items: center;
+}
+
+.intro{
+  text-align: center;
+
+}
+.design-img, .swift-img{
+  width: 25%;
+  float: left;
+  /* adds space between the text and the image */
+  margin-right: 30px;
+
+}
+.swift-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.ProfTitle{
+  text-align: center;
+}
+
+.profile {
+  margin-bottom:
+}
+
+.contactmsg{
+  width: 40%;
+  margin: 40px auto 30px;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  margin-bottom: 30px;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.middle-container {
+}
+
+.footer-link {
+  color: #11999E;
+  font-size: 20px;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6f6
+
+}
+
+.copyrights{
+  color: #EAF6f6;
+  font: 0.75rem;
+}
+
+.bottom-container {
+  background: #66bfbf;
+  padding: 40px 0px 20px;
+
+}
